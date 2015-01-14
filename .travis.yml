@@ -11,7 +11,7 @@ addons:
     project:
       name: "Litipk/ColorSharp"
       description: "Build submitted via Travis CI"
-    notification_email: castarco@gmail.com
+    notification_email: dvyas@coverity.com
     build_command_prepend: msbuild /t:Clean;.\.nuget\nuget.exe restore .\ColorSharp.sln
     build_command:   "msbuild /t:Rebuild"
     branch_pattern: coverity_scan
